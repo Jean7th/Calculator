@@ -84,3 +84,7 @@ document.addEventListener("keypress", function(event) {
         calculate();
     }
 });
+
+window.addEventListener("load", function(event) {
+    document.body.classList.remove('no-fouc');
+});
